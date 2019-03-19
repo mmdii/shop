@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca543165-c26a-4b6d-bf24-df35612c08e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/404.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/add-product.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/add-product.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop.pug" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,25 +29,43 @@
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/404.handlebars">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/404.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="161">
               <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/404.html">
+        <entry file="file://$PROJECT_DIR$/views/add-product.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="23" column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="479">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/shop.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -75,8 +101,10 @@
         <option value="$PROJECT_DIR$/views/shop.pug" />
         <option value="$PROJECT_DIR$/views/layouts/main-layout.pug" />
         <option value="$PROJECT_DIR$/routes/shop.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/404.handlebars" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/add-product.hbs" />
+        <option value="$PROJECT_DIR$/views/shop.hbs" />
       </list>
     </option>
   </component>
@@ -122,24 +150,6 @@
               <item name="expressjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="expressjs" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expressjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressjs" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="404.pug" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="expressjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressjs" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="add-product.pug" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="expressjs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expressjs" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shop.pug" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -188,12 +198,12 @@
       <workItem from="1552641306088" duration="15516000" />
       <workItem from="1552917274358" duration="45000" />
       <workItem from="1552925373350" duration="617000" />
-      <workItem from="1552941872665" duration="11969000" />
+      <workItem from="1552941872665" duration="12365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28147000" />
+    <option name="totallyTimeSpent" value="28543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
@@ -303,20 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/add-product.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -331,10 +327,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/404.handlebars">
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="184">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/404.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/add-product.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shop.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
         </state>
       </provider>
     </entry>
