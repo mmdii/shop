@@ -90,3 +90,6 @@ typings/
 node_modules
 npm-debug.log
 *.sqlite
+
+
+package-lock.json
